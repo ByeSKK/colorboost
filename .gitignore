@@ -1,0 +1,37 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+ipch/
+
+# Build output
+x64/
+Win32/
+Debug/
+Release/
+build/
+out/
+*.exe
+*.pdb
+*.ilk
+*.obj
+*.lib
+*.exp
+*.idb
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
