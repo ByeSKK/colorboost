@@ -2,25 +2,34 @@
 .vs/
 *.user
 *.suo
-*.sln.docstates
 *.VC.db
 *.VC.opendb
 ipch/
-
-# Build output
 x64/
 Win32/
 Debug/
 Release/
 build/
 out/
+
+# Binaries
 *.exe
+*.dll
+*.lib
 *.pdb
 *.ilk
 *.obj
-*.lib
 *.exp
 *.idb
+
+# Third-party (скачиваются отдельно или через submodules)
+lib/imgui/
+lib/glfw/
+lib/Minhook/
+src/imgui/
+include/raylib.h
+include/raymath.h
+include/rlgl.h
 
 # CMake
 CMakeFiles/
@@ -31,7 +40,3 @@ cmake_install.cmake
 Thumbs.db
 desktop.ini
 .DS_Store
-
-# Editor
-.vscode/
-.idea/
