@@ -26,7 +26,7 @@ shadows, saturation, etc.) to the desktop in real time.
 
 vcpkg install imgui nlohmann-json
 
-3\. Open `ColorBoost.sln', build it in `Release x64'.
+3\. Open `ColorBoost.sln', build it in `Release x64'. (or download release exe)
 
 
 
